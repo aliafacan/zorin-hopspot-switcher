@@ -112,6 +112,29 @@ No extra installation needed — NetworkManager handles it.
 
 ## Installation
 
+### Option A — .deb Package (recommended)
+
+```bash
+# Download the latest .deb from the Releases page, then:
+sudo dpkg -i zorin-hotspot-switcher_1.0.0_all.deb
+```
+
+Or build it yourself:
+
+```bash
+git clone https://github.com/aliafacan/zorin-hopspot-switcher.git
+cd zorin-hopspot-switcher
+bash build-deb.sh
+sudo dpkg -i zorin-hotspot-switcher_1.0.0_all.deb
+```
+
+To uninstall:
+```bash
+sudo dpkg -r zorin-hotspot-switcher
+```
+
+### Option B — Shell Installer
+
 ```bash
 # 1. Clone the repository
 git clone https://github.com/aliafacan/zorin-hopspot-switcher.git

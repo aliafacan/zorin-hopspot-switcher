@@ -112,6 +112,29 @@ Ek kurulum gerekmez — NetworkManager halleder.
 
 ## Kurulum
 
+### Seçenek A — .deb Paketi (önerilir)
+
+```bash
+# Releases sayfasından .deb dosyasını indir, ardından:
+sudo dpkg -i zorin-hotspot-switcher_1.0.0_all.deb
+```
+
+Ya da kendin oluştur:
+
+```bash
+git clone https://github.com/aliafacan/zorin-hopspot-switcher.git
+cd zorin-hopspot-switcher
+bash build-deb.sh
+sudo dpkg -i zorin-hotspot-switcher_1.0.0_all.deb
+```
+
+Kaldırmak için:
+```bash
+sudo dpkg -r zorin-hotspot-switcher
+```
+
+### Seçenek B — Kurulum Scripti
+
 ```bash
 # 1. Repoyu klonla
 git clone https://github.com/aliafacan/zorin-hopspot-switcher.git

@@ -4,6 +4,7 @@
 
 > 🇹🇷 [Türkçe README için tıklayın](README_TR.md)
 
+[![Version](https://img.shields.io/badge/version-1.0.0-brightgreen)](https://github.com/aliafacan/zorin-hopspot-switcher/releases/tag/v1.0.0)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![GNOME Shell](https://img.shields.io/badge/GNOME%20Shell-45%2F46-informational)](https://extensions.gnome.org)
 [![Platform](https://img.shields.io/badge/Platform-Zorin%20OS%2017%2F18-orange)](https://zoringroup.com)

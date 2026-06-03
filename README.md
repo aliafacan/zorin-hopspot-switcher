@@ -1,6 +1,6 @@
 # Zorin Hotspot Switcher
 
-**Share your internet connection as a WiFi hotspot while staying connected to a university or corporate network — on a single WiFi card.**
+**Turn your Linux machine into a WiFi hotspot while staying connected to any network — all on a single WiFi card.**
 
 > 🇹🇷 [Türkçe README için tıklayın](README_TR.md)
 
@@ -61,13 +61,13 @@ Most modern WiFi cards support **simultaneous STA+AP mode** — connected to an 
 **Zorin Hotspot Switcher solves this:**
 
 ```
-1. Scan BSSIDs of the currently connected SSID (e.g. university WiFi)
+1. Scan BSSIDs of the currently connected SSID
 2. If on 5 GHz → switch NetworkManager to the same SSID's 2.4 GHz BSSID
 3. Start create_ap on that 2.4 GHz channel (simultaneous STA+AP)
 4. On stop → kill create_ap, switch back to the original 5 GHz BSSID
 ```
 
-The result: you stay connected to your university/corporate network at full speed while sharing internet with your phone, tablet, or other devices.
+The result: you stay connected to your existing network at full speed while sharing internet with your phone, tablet, or other devices.
 
 ---
 
@@ -286,4 +286,4 @@ MIT License — see [LICENSE](LICENSE) for details.
 
 ---
 
-*Made for Zorin OS users who need to share their university/corporate internet connection.*
+*Made for Zorin OS users who want to share their internet connection as a hotspot without a second WiFi adapter.*

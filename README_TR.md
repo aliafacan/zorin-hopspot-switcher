@@ -1,6 +1,6 @@
 # Zorin Hotspot Switcher
 
-**Tek WiFi kartıyla üniversite veya kurumsal ağa bağlı kalırken internet bağlantını hotspot olarak paylaş.**
+**Tek WiFi kartıyla herhangi bir ağa bağlı kalırken internet bağlantını hotspot olarak paylaş.**
 
 > 🇬🇧 [English README](README.md)
 
@@ -61,13 +61,13 @@ Modern WiFi kartlarının çoğu **eş zamanlı STA+AP modunu** destekler — me
 **Zorin Hotspot Switcher bu sorunu çözer:**
 
 ```
-1. Şu an bağlı olunan SSID'nin (örn. üniversite WiFi) mevcut BSSID'lerini tara
+1. Şu an bağlı olunan SSID'nin mevcut BSSID'lerini tara
 2. 5GHz üzerindeysen → aynı SSID'nin 2.4GHz BSSID'sine geç
 3. O 2.4GHz kanalında create_ap başlat (eş zamanlı STA+AP)
 4. Durdurulunca → create_ap'i kapat, orijinal 5GHz BSSID'ye dön
 ```
 
-Sonuç: Üniversite/kurumsal ağına tam hızda bağlı kalırken telefonuna, tabletine veya başka cihazlara internet paylaşırsın.
+Sonuç: Mevcut ağa tam hızda bağlı kalırken telefonuna, tabletine veya başka cihazlara internet paylaşırsın.
 
 ---
 
@@ -283,4 +283,4 @@ MIT Lisansı — ayrıntılar için [LICENSE](LICENSE) dosyasına bakın.
 
 ---
 
-*Üniversite/kurumsal internet bağlantısını paylaşması gereken Zorin OS kullanıcıları için yapıldı.*
+*İkinci bir WiFi adaptörüne gerek kalmadan internet bağlantısını hotspot olarak paylaşmak isteyen Zorin OS kullanıcıları için yapıldı.*

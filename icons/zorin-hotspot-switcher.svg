@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#42A5F5"/>
+      <stop offset="100%" stop-color="#1565C0"/>
+    </linearGradient>
+  </defs>
+  <!-- Arka plan dairesi -->
+  <circle cx="24" cy="24" r="23" fill="url(#bg)"/>
+  <!-- WiFi dalgaları — merkez (24, 30) -->
+  <path d="M 8,30 A 16,16 0 0,0 40,30"
+        stroke="white" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+  <path d="M 13,30 A 11,11 0 0,0 35,30"
+        stroke="white" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+  <path d="M 18,30 A 6,6 0 0,0 30,30"
+        stroke="white" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+  <!-- Merkez nokta -->
+  <circle cx="24" cy="33" r="2.8" fill="white"/>
+</svg>

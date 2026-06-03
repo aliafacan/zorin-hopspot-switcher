@@ -1,0 +1,7 @@
+{
+  "uuid": "zorin-hotspot-toggle@local",
+  "name": "Zorin Hotspot Toggle",
+  "description": "Quick Settings içine Hotspot düğmesi ekler. Başlatırken 5GHz bağlantıyı aynı SSID'nin 2.4GHz BSSID'sine alır, kapatırken tekrar 5GHz'e döner.",
+  "shell-version": ["45", "46"],
+  "version": 2
+}

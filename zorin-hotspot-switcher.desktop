@@ -1,0 +1,17 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Zorin Hotspot Switcher
+Name[tr]=Zorin Hotspot Switcher
+GenericName=Hotspot Manager
+GenericName[tr]=Hotspot Yöneticisi
+Comment=Manage WiFi hotspot while staying connected to another network
+Comment[tr]=Başka bir ağa bağlı kalırken WiFi hotspot yönet
+Exec=/usr/local/bin/zorin-hotspot-switcher
+Icon=zorin-hotspot-switcher
+Terminal=false
+Categories=System;Network;Settings;
+Keywords=hotspot;wifi;network;share;internet;wireless;
+Keywords[tr]=hotspot;wifi;ağ;paylaş;internet;kablosuz;
+StartupWMClass=zorin-hotspot-switcher
+StartupNotify=true
